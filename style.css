@@ -1,3 +1,10 @@
+.nav {
+  position: absolute;
+  top: 0;
+  margin-bottom: 60px;
+  padding-bottom: 90px;
+}
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -10,59 +17,95 @@
   padding-right: 14px;
 }
 
-nav li {
+.nav li {
   display: inline;
 }
 
 .jumbotron {
-  background-image:url('http://images.mmorpg.com/images/galleries/full/032011/022c4bf3-406e-40c2-af56-4b41edfa4b02.jpg');
-  height: 500px;
+  background-image:url('http://images4.alphacoders.com/648/648138.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: darken;
+  height:750px;
 }
 
-.jumbotron .container {
+.jumbotron .content{
   position: relative;
-  top:100px;
+  top:70px;
+  
 }
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 48px;  
   font-weight: bold;
+  font-family: "futura-pt", "Futura PT", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
+  text-transform: uppercase;
+  font-size: 36px;
 }
 
 .jumbotron p {
   font-size: 20px;
-  color: #fff;
+  color: gray;
+  font-family: "Soleil", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
 }
 
-.learn-more {
-  background-color: #f7f7f7;
+.jumbotron span p {
+  font-size: 15px;
+  color: gray;
+
 }
 
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+.jumbotron .row p {
+  font-size: 15px;
+  color: gray;
+
 }
 
-.learn-more a {
-  color: #00b0ff;
+.jumbotron .row a {
+  font-size: 15px;
 }
+
 
 .neighborhood-guides {
-    background-color: #efefef;
-    border-bottom: 1px solid #dbdbdb;
+        
 }
 
 .neighborhood-guides h2{
-    color: #393c3d;
-    font-size: 24px;
+  float: center;
+  text-align: center;
+  font-family: "Soleil", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 69px;
+  padding-bottom: 69px;
+  color: gray;
 }
 
 .neighborhood-guides p{
-    font-size: 15px;
+    
     margin-bottom: 13px;
 }
 
+
+
+#skills {
+  font-size: 27px;
+  font-family: "Soleil", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
+  color:gray;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Shift', sans-serif;
+  color:gray;
+}
+
+.row h2 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Soleil", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
+  color:gray;
+  text-transform: uppercase;
+}
