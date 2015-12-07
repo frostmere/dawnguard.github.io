@@ -1,3 +1,20 @@
+#thepage {
+  padding-left: 0;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Shift', sans-serif;
+  color:gray;
+}
+
 .nav {
   position: absolute;
   top: 0;
@@ -5,20 +22,25 @@
   padding-bottom: 90px;
 }
 
+.nav li {
+  display: inline;
+}
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding-right: 14px;
   text-transform: uppercase;
 }
 
-.nav a:last-child {
-  padding-right: 14px;
+.nav .pull-right {
+  padding-right: 0px;
+  text-align: right;
 }
 
-.nav li {
-  display: inline;
+#con {
+  padding-right: 0px;
 }
 
 .jumbotron {
@@ -65,9 +87,21 @@
   font-size: 15px;
 }
 
+ol, ul, li {
+    list-style: none outside none;
+  background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
 
 .neighborhood-guides {
-        
+
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 79px;
 }
 
 .neighborhood-guides h2{
@@ -76,36 +110,38 @@
   font-family: "Soleil", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
   font-size: 28px;
   font-weight: bold;
-  padding-top: 69px;
+  padding-top:69px;
   padding-bottom: 69px;
   color: gray;
 }
 
-.neighborhood-guides p{
-    
-    margin-bottom: 13px;
+.neighborhood-guides p {
+  margin-bottom: 13px;
 }
 
-
-
-#skills {
-  font-size: 27px;
-  font-family: "Soleil", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
-  color:gray;
-  text-transform: uppercase;
+.neighborhood-guides a p {
+  margin: auto;
+  text-align: center;
   font-weight: bold;
+  font-size: 20px;
+  font-family: 'Shift', sans-serif;
 }
 
-h3 {
-  font-size: 25px;
-  font-family: 'Shift', sans-serif;
-  color:gray;
+.neighborhood-guides .row {
+  padding-bottom: 20px;
 }
 
 .row h2 {
   font-size: 28px;
+  font-family: 'Shift', sans-serif;
   font-weight: bold;
-  font-family: "Soleil", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
   color:gray;
   text-transform: uppercase;
 }
+
+.learn-more {
+  background-color: #F8F8F8;
+}
+
+
+
