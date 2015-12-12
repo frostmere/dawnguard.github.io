@@ -80,7 +80,6 @@ h3 {
 .jumbotron .row p {
   font-size: 15px;
   color: gray;
-
 }
 
 .jumbotron .row a {
@@ -117,9 +116,6 @@ ol, ul, li {
 
 .neighborhood-guides p {
   margin-bottom: 13px;
-}
-
-.neighborhood-guides a p {
   margin: auto;
   text-align: center;
   font-weight: bold;
@@ -142,6 +138,3 @@ ol, ul, li {
 .learn-more {
   background-color: #F8F8F8;
 }
-
-
-
