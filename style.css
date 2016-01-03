@@ -1,5 +1,9 @@
-#thepage {
-  padding-left: 0;
+.nav a:first-child {
+  margin-left: 0;
+}
+
+#UrHere {
+  border-bottom: 1px solid #5a5a5a;
 }
 
 body {
@@ -30,17 +34,25 @@ h3 {
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
-  padding-right: 14px;
+  margin-right: 14px;
   text-transform: uppercase;
 }
 
+.nav a:hover {
+  border-bottom: 1px solid #5a5a5a;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 .nav .pull-right {
-  padding-right: 0px;
+  margin-right: 0px;
   text-align: right;
 }
 
 #con {
-  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .jumbotron {
@@ -84,6 +96,11 @@ h3 {
 
 .jumbotron .row a {
   font-size: 15px;
+  color: #428bca;
+}
+
+.jumbotron .row a:hover {
+  color: #00b0ff;
 }
 
 ol, ul, li {
