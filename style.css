@@ -14,16 +14,16 @@ body {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Shift', sans-serif;
-  color:gray;
+  color:#ddd;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .nav {
   position: absolute;
   top: 0;
-  margin-bottom: 60px;
-  padding-bottom: 90px;
 }
 
 .nav li {
@@ -31,7 +31,7 @@ h3 {
 }
 
 .nav a {
-  color: #5a5a5a;
+  color: #aaa;
   font-size: 11px;
   font-weight: bold;
   margin-right: 14px;
@@ -51,56 +51,55 @@ a:link {
   text-align: right;
 }
 
-#con {
+#last-nav {
   margin-right: 0px;
 }
 
 .jumbotron {
-  background-image:url('http://images4.alphacoders.com/648/648138.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
-  height:750px;
+  position: relative;
+  overflow: hidden;
+  background: #efefef;
+  background-image: url(footer_lodyas.png);
 }
 
 .jumbotron .content{
   position: relative;
-  top:70px;
-  
+  top:55px;
+  margin-bottom: 40px;
 }
 
 .jumbotron h1 {
-  color: #fff;
-  font-weight: bold;
+  color: #ddd;
   font-family: "futura-pt", "Futura PT", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .jumbotron p {
   font-size: 20px;
-  color: gray;
+  color: #ccc;
   font-family: "Soleil", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
 }
 
-.jumbotron span p {
+.jumbotron p em {
   font-size: 15px;
-  color: gray;
+  color: #efe;
 
 }
 
 .jumbotron .row p {
   font-size: 15px;
-  color: gray;
+  color: #ccc;
 }
 
 .jumbotron .row a {
   font-size: 15px;
-  color: #428bca;
+  
 }
 
 .jumbotron .row a:hover {
-  color: #00b0ff;
+  color: #428bca;
 }
 
 ol, ul, li {
@@ -116,6 +115,7 @@ ol, ul, li {
 
 .neighborhood-guides {
 
+  border-top: 1px solid #dbdbdb;
   border-bottom: 1px solid #dbdbdb;
   padding-bottom: 79px;
 }
@@ -123,7 +123,7 @@ ol, ul, li {
 .neighborhood-guides h2{
   float: center;
   text-align: center;
-  font-family: "Soleil", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
+  font-family: "Shift", sans-serif;
   font-size: 28px;
   font-weight: bold;
   padding-top:69px;
@@ -148,10 +148,24 @@ ol, ul, li {
   font-size: 28px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
-  color:gray;
+  color:#efefef;
   text-transform: uppercase;
 }
 
+.learn-more h3 {
+  font-size: 20px;
+}
+
 .learn-more {
-  background-color: #F8F8F8;
+  background-image: url(footer_lodyas.png);
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.learn-more p {
+  color: #bbb;
+}
+
+.centry {
+  text-align: center;
 }
