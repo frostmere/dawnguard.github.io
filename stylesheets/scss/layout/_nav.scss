@@ -1,0 +1,42 @@
+.nav {
+  position: absolute;
+  top: 0;
+  
+  #UrHere {
+    border-bottom: 1px solid #5a5a5a;
+  }
+  
+  a {
+    color: #aaa;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 14px;
+    text-transform: uppercase;
+    
+    &:first-child {
+      margin-left: 0;
+    }
+    
+    &:last-child {
+      //margin-right: 0;
+    }
+    
+    &:hover {
+      border-bottom: 1px solid #5a5a5a;
+    }
+    
+    &:link {
+      text-decoration: none;
+    }
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .pull-right {
+    margin-right: 0px;
+    text-align: right;
+  }
+  
+}
