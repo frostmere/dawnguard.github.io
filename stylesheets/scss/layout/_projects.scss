@@ -1,17 +1,17 @@
 .projects {
 
-  border-top: 1px solid #dbdbdb;
-  border-bottom: 1px solid #dbdbdb;
+  border-top: $bSeparator;
+  border-bottom: $bSeparator;
   padding-bottom: 79px;
   
   h2 {
+    color: gray;
     text-align: center;
-    font-family: "Shift", sans-serif;
+    font-family: $fShift;
     font-size: 28px;
     font-weight: bold;
     padding-top:69px;
     padding-bottom: 69px;
-    color: gray;
   }
   
   p {
@@ -20,15 +20,10 @@
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Shift', sans-serif;
+    font-family: $fShift;
   }
   
   .row {
     padding-bottom: 20px;
-    
-    h2 {
-      color:#efefef;
-      text-transform: uppercase;
-    }
   }
 }

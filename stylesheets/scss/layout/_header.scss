@@ -11,24 +11,20 @@
     
     h1 {
       color: #ddd;
-      font-family: "futura-pt", "Futura PT", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
+      font-family: $fCarter-heading;
       text-transform: uppercase;
       font-size: 26px;
       font-weight: bold;
     }
-    
-      h3 {
-        color:#ddd;
-      }
 
     p {
-      font-size: 15px;
       color: #ccc;
-      font-family: "Soleil", "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
-
+      font-family: $fCarter-body;
+      font-size: 15px;
+      
       em {
-        font-size: 15px;
         color: #efe;
+        font-size: 15px;
       }
     }
     
