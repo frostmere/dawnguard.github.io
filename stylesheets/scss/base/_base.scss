@@ -1,14 +1,18 @@
+html {
+  font-size: 10px;
+}
+
 body {
   color: #333;
   font-family: $fDefault;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 1.42857;  
   
   h3 {
     color: #ddd;
     margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 20px;
+    margin-bottom: 2rem;
+    font-size: 2rem;
     font-family: $fShift;    
   }
   
